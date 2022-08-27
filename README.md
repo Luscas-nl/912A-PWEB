@@ -1,2 +1,2 @@
 # 912A-PWEB
-  Projeto de um site com uma historia infantil desenvolvido para um trabalho de PWEB do curso Desenvolvimento de Sistemas - IFAL
+  Project of a website with a children's story developed for a PWEB project of the Systems Development course - IFAL
