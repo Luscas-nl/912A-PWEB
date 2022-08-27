@@ -70,7 +70,7 @@ body{
     height: 100%;
     background-color: #1d1d1d;
     text-align: center;
-    box-shadow: 6px 1px 1cm #070707;
+    box-shadow: 6px 1px .5cm #070707;
 }
 
 .imgCapa{
@@ -93,7 +93,6 @@ body{
     opacity: 0;
     width: 100%;
     height: 48%;
-    background-color: #070707;
 }
 
 .boxRodape{
@@ -103,7 +102,6 @@ body{
     animation: fadeIn 1s;
     animation-fill-mode: forwards;
     transform: translateY(9px);
-    background-color: #fff;
 }
 
 .link{
