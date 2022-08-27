@@ -103,6 +103,7 @@ body{
     animation: fadeIn 1s;
     animation-fill-mode: forwards;
     transform: translateY(9px);
+    background-color: #fff;
 }
 
 .link{
