@@ -47,7 +47,6 @@ body{
     animation-fill-mode: forwards;
     transform: translateX(-21px);
     opacity: 0;
-    background-color: #35a5df;
 }
 
 .boxInfo{
