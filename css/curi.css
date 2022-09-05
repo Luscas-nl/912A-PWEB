@@ -78,6 +78,7 @@ header > div{
 
 footer{
     width: 100%;
+    font-size: .8em;
     text-align: center;
     background-color: #000000;
     color: #dddddd;
@@ -137,4 +138,9 @@ span{
     text-align: center;
     font-size: 3em;
     color: #c5c5c5;
+}
+
+.group{
+    color: #bf3f9d;
+    font-style: italic;
 }
