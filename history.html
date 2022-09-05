@@ -11,80 +11,99 @@
 
 <link rel="stylesheet" href="css/history.css">
 
+<!--
+    ## OBJETOS ##
+    <title> = TItulo da pagina
+    <link> = Usado para importar algo para o arquivo html
+    <a> = Link
+    <div> = "Caixa"
+    <h1> = Titulo
+    <p> = Paragrafo
+
+    ## DEFINIÇÕES ##
+    class = classe do objeto, a qual vai ser usada como referencia dele no arquivo css para estilização
+    href = referencia de pra onde o link vai redirecinar ao ser clicado ou no caso do <link> ele funciona como o [src] ↓
+    src = fonte/arquivo a ser usado
+    rel = oq a importação vai ser [stylesheet = folha de estilo ou no caso um arrquivo pra estilização (css)] [shotcut icon = icone da pagina]
+    alt = titulo da imagem caso ela nn carregue, e serve como referencia dela pro navegador tbm
+-->
+
 <body>
     <!-- ## CABEÇALHO ## -->
     <header>
+        <!-- TITULO DO CABEÇALHO COMO TAG <a> PARA PODER SER CLICAVEL E REDIRECIONAVEL PARA A (REFERÊNCIA [href] = TELA INICIAL [index.html]) -->
         <a href="index.html"><h1>Pinóquio</h1></a>
 
+        <!-- DIV/CAIXA COM OS LINKS PARA REDIRECIONAR PARA AS OUTRAS PÁGINAS -->
         <div class="links">
+            <!-- OS LINKS NO CASO... -->
+            <a href="index.html" class="linkHead">Home</a>
             <a href="history.html" class="linkHead">História</a>
-            <a href="sobre.html" class="linkHead">Sobre</a>
-            <a href="#" class="linkHead">Curiosidades</a>
+            <a href="curi.html" class="linkHead">Sobre</a>
         </div>
 
     </header>
 
+    <!-- ## SEÇÃO DA HISTÓRIA ## -->
     <section>
         <div class="pag pag0">
             <h1>A História de Pinóquio</h1>
         </div>
+
+        <!-- DIV/CAIXA DAS PAGINAS DA HISTORIA ## DEPOIS ESSA DIV SÓ VAI FICAR SENDO REPETIDA PARA CRIAR AS OUTRAS LINHAS/PAGINAS --> 
         <div class="pag pag1">
+            <!-- IMAGEM DA PAGINA -->
             <img src="src/images/img1.jpg" alt="Imagem 1" class="img img1">
+            <!-- TEXTO DA PAGINA -->
             <p>"Certa vez, um velho carpinteiro chamado Gepeto fez um boneco de madeira. Deu-lhe o nome de pinóquio. 
                 De repente, o boneco criou vida. Gepeto ficou muito feliz, pois agora tinha um filho."</p>
         </div>
         <div class="pag pag2">
-            <hr>
             <p>"Gepeto queria fazer de pinóquio um menino educado. Colocou-o na escola. Mas pinóquio fugiu e 
                 foi divertir-se no teatro de bonecos."</p>
             <img src="src/images/img2.jpg" alt="Imagem 2" class="img img2">
         </div>
         <div class="pag pag3">
-            <hr>
             <img src="src/images/img3.jpg" alt="Imagem 3" class="img img3">
             <p>"O dono do teatro queria ficar com pinóquio, mas ele chorou tanto que o homem deu-lhe umas moedas 
                 e o deixou partir."</p>
         </div>
         <div class="pag pag4">
-            <hr>
             <p>"Na volta para casa, encontrou dois ladrões. Apesar dos conselhos do grilo falante, seguiu com eles e foi roubado.
                 Pinóquio, triste, resolveu voltar para casa e obedecer a Gepeto."</p>
             <img src="src/images/img4.jpg" alt="Imagem 4" class="img img4">
         </div>
         <div class="pag pag5">
-            <hr>
             <img src="src/images/img5.jpg" alt="Imagem 5" class="img img5">
             <p>"No caminho, um passarinho avisou que Gepeto foi procurá-lo no mar. Ele ia ao encontro de Gepeto, 
                 quando viu umas crianças que se dirigiam ao país da alegria. Pinóquio foi com elas."</p>
         </div>
         <div class="pag pag6">
-            <hr>
             <p>"Estava brincando, quando percebeu que estava se transformando em um burro.
                 Chorou, arrependido."</p>
             <img src="src/images/img6.jpg" alt="Imagem 6" class="img img6">
         </div>
         <div class="pag pag7">
-            <hr>
             <img src="src/images/img7.jpg" alt="Imagem 7" class="img img7">
             <p>"Uma fada apareceu e desfez o encanto. Mas avisou:
                 <span class="enfase">- Toda vez que mentir, seu nariz vai crescer!</span>"</p>
         </div>
         <div class="pag pag8">
-            <hr>
             <p>"Chegando no mar, pinóquio e o grilo foram procurar Gepeto.
                 Apareceu uma baleia e os engoliu. Lá dentro, encontraram Gepeto.
                 Quando a baleia abriu a boca de novo, eles fugiram."</p>
             <img src="src/images/img8.jpg" alt="Imagem 8" class="img img8">
         </div>
         <div class="pag pag9">
-            <hr>
             <img src="src/images/img9.jpg" alt="Imagem 9" class="img img9">
             <p>"Chegando em casa, a fada recompensou a coragem de pinóquio, transformando-o num menino de verdade. 
                 Pinóquio e Gepeto foram muito felizes."</p>
         </div>
     </section>
 
+    <!-- ## RODAPÉ  ##-->
     <footer>
+        <!-- TEXTO DO RODAPÉ ## ALI O <span> É USADO PRA SEPARAR UMA PARTE ESPECIFICA DO TEXTO PRA SER EDITADA SEPARADAMENTE DE TODO O TEXTO --> 
         <p class="txtFoot">desenvolvido por: <span class="group">Grupo 8</span> 😎</p>
     </footer>
 

@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=DynaPuff&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 
 @keyframes fade {
 
@@ -9,7 +10,6 @@
     }
 }
 
-/* ---- GERAL ---- */
 *{
     padding: 0;
     margin: 0;
@@ -17,6 +17,9 @@
 
 body{
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     background-color: #3a3a3a;
 }
 
@@ -34,7 +37,6 @@ body::-webkit-scrollbar-thumb {
     background-clip: content-box;
 }
 
-/* ---- HEADER / CABEÇALHO ---- */
 header{
     position: fixed;
     display: flex;
@@ -70,69 +72,10 @@ header > div{
     color: #fff;
 }
 
-/* ---- SEÇÃO DA HISTORIA ---- */
-section{
-    background-color: #3a3a3a;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    opacity: 0;
-    transform: translateY(21px);
-    animation-name: fade;
-    animation-duration: 1s;
-    animation-fill-mode: forwards;
+.linkHead:hover{
+    color: rgb(226, 226, 226);
 }
 
-.pag{
-    width: 60%;
-    display: flex;
-    flex-direction: row;
-    color: #c5c5c5;
-    align-items: center;
-    padding: 19px 0;
-}
-
-.pag0{
-    display: block;
-    padding-top: 81px;
-    text-align: center;
-    font-size: 2em;
-    font-family: 'Fredoka One', cursive;
-    padding-bottom: 41px;
-}
-
-.pag9{
-    padding-bottom: 25px;
-}
-
-
-img{
-    border-radius: 15px;
-    box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.5);
-}
-
-.img2, .img4, .img6, .img8{
-    width: 35%;
-}
-
-.img1 ,.img3 ,.img5, .img7, .img9{
-    width: 45%;
-}
-
-p{
-    height: 100%;
-    width: 40%;
-    text-align: center;
-    margin: auto;
-    font-style: italic;
-    font-size: 1.4em;
-}
-
-.enfase{
-    color: #bf3f9d;
-}
-
-/* ---- FOOTER / RODAPÉ ---- */
 footer{
     width: 100%;
     text-align: center;
@@ -141,34 +84,57 @@ footer{
     box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.5);
 }
 
-.txtFoot{
-    font-style: normal;
-    font-size: .8em;
+.boxPrincipal{
+    padding-top: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    opacity: 0;
+    transform: translateY(21px);
+    animation: fade;
+    animation-duration: .8s;
+    animation-fill-mode: forwards;
+
 }
 
-.group{
-    color: #bf3f9d;
-    font-style: italic;
+.box{
+    font-family: 'Rubik', sans-serif;
+    padding: 35px;
+    color: #fff;
+    font-size: 1.15em;
+}
+.box > h1{
+    padding-bottom: 5px;
+    font-size: 2em;
+    color: #a362f8;
 }
 
-/* ---- HOVERS ---- */
-.linkHead:hover{
-    color: rgb(226, 226, 226);
+.lista{
+    padding-left: 25px;
 }
 
-.img:hover{
-    transform: scale(1.015);
+span{
+    color: #a362f8;
 }
 
-/* ---- MEDIA QUERY ---- */
-@media only screen and (max-width: 685px) {
+.infosAutor{
+    display: flex;
+    align-items: center;
+}
 
-    .pag{
-        flex-direction: column;
-        width: 100%;
-    }
+.infosAutor > p {
+    padding-left: 15px;
+}
 
-    p{
-        width: 85%;
-    }
+.infosAutor > img{
+    height: 255px;
+    border-radius: 5px;
+}
+
+.titulo > h1{
+    padding-top: 21px;
+    font-family: 'Fredoka One', cursive;
+    text-align: center;
+    font-size: 3em;
+    color: #c5c5c5;
 }

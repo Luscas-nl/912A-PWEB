@@ -10,36 +10,59 @@
 </head>
 <link href="css/index.css" rel="stylesheet">
 
+<!--
+    ## OBJETOS ##
+    <title> = TItulo da pagina
+    <link> = Usado para importar algo para o arquivo html
+    <a> = Link
+    <div> = "Caixa"
+    <h1> = Titulo
+    <p> = Paragrafo
+
+    ## DEFINIÇÕES ##
+    class = classe do objeto, a qual vai ser usada como referencia dele no arquivo css para estilização
+    href = referencia de pra onde o link vai redirecinar ao ser clicado ou no caso do <link> ele funciona como o [src] ↓
+    src = fonte/arquivo a ser usado
+    rel = oq a importação vai ser [stylesheet = folha de estilo ou no caso um arrquivo pra estilização (css)] [shotcut icon = icone da pagina]
+    alt = titulo da imagem caso ela nn carregue, e serve como referencia dela pro navegador tbm
+-->
 
 <body>
 
+    <!-- ## SEÇÃO PRINCIPAL OU NO CASO A UNICA KSKSKSKSKSKSKKS ## -->
     <section class="boxPrincipal">
-        <!--CAPA-->
+        <!-- DIV/CAIXA DA CAPA-->
         <div class="boxCapa">
+            <!-- DIV/CAIXA PRA SER O FUNDOZINHO LÁ ATRÁS -->
             <div class="line"></div>
+            <!-- IMAGEM DA CAPA-->
             <img src="src/images/capa.jpg" alt="" class="imgCapa">
         </div>
         
 
-        <!--INFORMAÇÕES-->
+        <!--DIV/CAIXA DAS INFORMAÇÕES -->
         <div class="boxInfo">
+                        <!-- aqui ela foi dividida em tres partes, a do titulo, a dos botões e o rodapé -->
+
+            <!-- DIV/CAIXA DO TITULO -->
             <div class="boxTitle">
                 <h1 class="txtTitle">Pinóquio</h1>
-                <!--<p class="txtAlunos">By Adriele Oliveira - Andréia Ursulino - Eduardo Lucas - Gabrielly Ferreira - Rayssa</p>-->
             </div>
             
+            <!-- DIV/CAIXA DOS BOTÕES -->
             <div class="boxButtons">
                 <a href="history.html" class="btn btnHistory">HISTÓRIA</a>
-                <a href="sobre.html" class="btn btnSobre">SOBRE</a>
-                <a href="#" class="btn btnCuri">CURIOSIDADES</a>
+                <a href="curi.html" class="btn btnSobre">SOBRE</a>
             </div>
 
+            <!-- DIV/CAIXA DO RODAPÉ -->
             <div class="boxRodape">
                 <a href="#" class="link">Adriele</a>
                 <a href="#" class="link">Andréia</a>
                 <a href="https://github.com/Luscas-nl/" class="link">Eduardo</a>
                 <a href="#" class="link">Gabrielly</a>
                 <a href="#" class="link">Rayssa</a>
+                <a href="#" class="link">Larissa</a>
             </div>
         </div>
     </section>
