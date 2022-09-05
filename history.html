@@ -11,32 +11,11 @@
 
 <link rel="stylesheet" href="css/history.css">
 
-<!--
-    ## OBJETOS ##
-    <title> = TItulo da pagina
-    <link> = Usado para importar algo para o arquivo html
-    <a> = Link
-    <div> = "Caixa"
-    <h1> = Titulo
-    <p> = Paragrafo
-
-    ## DEFINIÇÕES ##
-    class = classe do objeto, a qual vai ser usada como referencia dele no arquivo css para estilização
-    href = referencia de pra onde o link vai redirecinar ao ser clicado ou no caso do <link> ele funciona como o [src] ↓
-    src = fonte/arquivo a ser usado
-    rel = oq a importação vai ser [stylesheet = folha de estilo ou no caso um arrquivo pra estilização (css)] [shotcut icon = icone da pagina]
-    alt = titulo da imagem caso ela nn carregue, e serve como referencia dela pro navegador tbm
--->
-
 <body>
-    <!-- ## CABEÇALHO ## -->
     <header>
-        <!-- TITULO DO CABEÇALHO COMO TAG <a> PARA PODER SER CLICAVEL E REDIRECIONAVEL PARA A (REFERÊNCIA [href] = TELA INICIAL [index.html]) -->
         <a href="index.html"><h1>Pinóquio</h1></a>
 
-        <!-- DIV/CAIXA COM OS LINKS PARA REDIRECIONAR PARA AS OUTRAS PÁGINAS -->
         <div class="links">
-            <!-- OS LINKS NO CASO... -->
             <a href="index.html" class="linkHead">Home</a>
             <a href="history.html" class="linkHead">História</a>
             <a href="curi.html" class="linkHead">Sobre</a>
@@ -44,17 +23,12 @@
 
     </header>
 
-    <!-- ## SEÇÃO DA HISTÓRIA ## -->
     <section>
         <div class="pag pag0">
             <h1>A História de Pinóquio</h1>
         </div>
-
-        <!-- DIV/CAIXA DAS PAGINAS DA HISTORIA ## DEPOIS ESSA DIV SÓ VAI FICAR SENDO REPETIDA PARA CRIAR AS OUTRAS LINHAS/PAGINAS --> 
         <div class="pag pag1">
-            <!-- IMAGEM DA PAGINA -->
             <img src="src/images/img1.jpg" alt="Imagem 1" class="img img1">
-            <!-- TEXTO DA PAGINA -->
             <p>"Certa vez, um velho carpinteiro chamado Gepeto fez um boneco de madeira. Deu-lhe o nome de pinóquio. 
                 De repente, o boneco criou vida. Gepeto ficou muito feliz, pois agora tinha um filho."</p>
         </div>
@@ -101,9 +75,7 @@
         </div>
     </section>
 
-    <!-- ## RODAPÉ  ##-->
     <footer>
-        <!-- TEXTO DO RODAPÉ ## ALI O <span> É USADO PRA SEPARAR UMA PARTE ESPECIFICA DO TEXTO PRA SER EDITADA SEPARADAMENTE DE TODO O TEXTO --> 
         <p class="txtFoot">desenvolvido por: <span class="group">Grupo 8</span> 😎</p>
     </footer>
 
